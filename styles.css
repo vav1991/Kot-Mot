@@ -1,41 +1,34 @@
-/* Основные стили */
-body {
-    font-family: Arial, sans-serif;
-    color: black;
-    background-color: white;
-}
-
-/* Заголовки */
-h1, h2, h3, h4, h5, h6 {
-    color: black; /* Черный цвет для заголовков */
-}
-
-/* Ссылки */
-a {
-    color: orange; /* Оранжевый цвет для ссылок */
-    text-decoration: none; /* Убираем подчеркивание */
-}
-
-a:hover {
-    text-decoration: underline; /* Подчеркиваем ссылку при наведении */
-}
-
-/* Стили для контейнеров */
-.container {
-    margin: 0 auto; /* Центрируем контейнер на странице */
-    max-width: 1200px; /* Максимальная ширина контейнера */
+/* Стили для шапки сайта */
+.header {
+    background-color: #333; /* Цвет фона */
+    color: #fff; /* Цвет текста */
     padding: 20px; /* Внутренние отступы */
+    text-align: center; /* Выравнивание текста по центру */
 }
 
-/* Стили для изображений */
-img {
-    max-width: 100%; /* Максимальная ширина изображений */
-    height: auto; /* Автоматическое соотношение сторон */
+.header h1 {
+    margin: 0; /* Убираем внешние отступы */
 }
 
-/* Стили для фона */
-.background {
-    background-image: url('path/to/background-image.jpg'); /* Замените 'path/to/background-image.jpg' на путь к вашему изображению фона */
-    background-size: cover; /* Растягиваем изображение на весь фон */
-    background-position: center; /* Выравниваем изображение по центру */
+.header nav ul {
+    list-style: none; /* Убираем маркеры у списка */
+    padding: 0; /* Убираем внутренние отступы у списка */
+}
+
+.header nav ul li {
+    display: inline; /* Располагаем пункты списка горизонтально */
+    margin: 0 10px; /* Внешние отступы между пунктами списка */
+}
+
+.header nav ul li a {
+    color: #fff; /* Цвет текста ссылок */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+/* Стили для нижнего колонтитула */
+.footer {
+    background-color: #333; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 10px 0; /* Внутренние отступы */
+    text-align: center; /* Выравнивание текста по центру */
 }
