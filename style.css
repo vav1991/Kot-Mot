@@ -1,0 +1,41 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+    color: black; /* Черный цвет для заголовков */
+}
+
+/* Ссылки */
+a {
+    color: orange; /* Оранжевый цвет для ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркиваем ссылку при наведении */
+}
+
+/* Стили для контейнеров */
+.container {
+    margin: 0 auto; /* Центрируем контейнер на странице */
+    max-width: 1200px; /* Максимальная ширина контейнера */
+    padding: 20px; /* Внутренние отступы */
+}
+
+/* Стили для изображений */
+img {
+    max-width: 100%; /* Максимальная ширина изображений */
+    height: auto; /* Автоматическое соотношение сторон */
+}
+
+/* Стили для фона */
+.background {
+    background-image: url('path/to/background-image.jpg'); /* Замените 'path/to/background-image.jpg' на путь к вашему изображению фона */
+    background-size: cover; /* Растягиваем изображение на весь фон */
+    background-position: center; /* Выравниваем изображение по центру */
+}
